@@ -21,7 +21,7 @@ import io.cucumber.java.en.When;
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class Logincode{ WebDriver driver;
-	@Given("Read 5 employees which are created in a csv/txt file")
+	@Given("Read 5 employees from csv file and register")
 	
 		public void readEmployees(){
 		try {
